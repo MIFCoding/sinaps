@@ -1,0 +1,7 @@
+{
+  "default": "../frontend/public/design/synapse-logo.svg",
+  "bg_color": "#ffffff",
+  "android_bg": "icon-background.svg",
+  "android_fg": "icon-foreground.svg",
+  "android_monochrome": "icon-monochrome.svg"
+}

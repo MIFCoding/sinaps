@@ -1,0 +1,67 @@
+name: Checks
+on: [push, pull_request]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:17-alpine
+        env:
+          POSTGRES_USER: synapse
+          POSTGRES_PASSWORD: synapse_local
+          POSTGRES_DB: synapse
+        ports: ['5432:5432']
+        options: >-
+          --health-cmd "pg_isready -U synapse -d synapse"
+          --health-interval 3s --health-timeout 3s --health-retries 20
+    env:
+      DATABASE_URL: postgres://synapse:synapse_local@localhost:5432/synapse
+      SYNAPSE_DEMO_SEED: 'true'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          components: rustfmt, clippy
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - run: cargo fmt --all -- --check
+      - run: cargo clippy --workspace --all-targets -- -D warnings
+      - run: cargo test --workspace
+      - run: npm run api:check
+      - run: npm run check
+      - run: npm run build
+      - run: cargo build -p synapse-api
+      - run: cargo run -p synapse-api -- seed
+      - name: Start API
+        run: |
+          target/debug/synapse-api > api.log 2>&1 &
+          for attempt in $(seq 1 30); do
+            if curl --fail --silent http://127.0.0.1:3000/ready; then exit 0; fi
+            sleep 1
+          done
+          exit 1
+      - run: python scripts/smoke_api.py
+      - run: npm run test:contract
+      - run: python scripts/smoke_onboarding.py
+      - run: python scripts/smoke_events.py
+      - run: python scripts/smoke_notifications.py
+      - run: python scripts/smoke_patient_directory.py
+      - run: python scripts/smoke_history.py
+      - run: python scripts/smoke_profile_changes.py
+      - run: python scripts/smoke_clinical.py
+      - run: python scripts/smoke_medical_history.py
+      - run: python scripts/smoke_registration.py
+      - run: python scripts/smoke_questionnaires.py
+      - run: npx playwright install --with-deps chromium
+      - run: npm run test:e2e
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: diagnostics
+          path: |
+            api.log
+            test-results/

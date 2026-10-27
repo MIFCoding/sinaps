@@ -1,0 +1,29 @@
+{
+  "name": "synapse",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/frontend",
+    "apps/mobile"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace @synapse/frontend",
+    "build": "npm run build --workspace @synapse/frontend",
+    "check": "npm run check --workspace @synapse/frontend",
+    "api:generate": "node scripts/generate-api.mjs",
+    "api:check": "node scripts/generate-api.mjs --check",
+    "test:contract": "node scripts/smoke_contract.mjs",
+    "mobile": "npm run tauri --workspace @synapse/mobile --",
+    "android": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/android.ps1",
+    "test:e2e": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.0",
+    "ajv": "^8.20.0",
+    "ajv-formats": "^3.0.1",
+    "openapi-typescript": "^7.13.0",
+    "prettier": "^3.9.10",
+    "prettier-plugin-svelte": "^4.1.1",
+    "typescript": "5.9.3"
+  }
+}

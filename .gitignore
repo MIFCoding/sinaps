@@ -1,0 +1,13 @@
+tmp/
+docs/
+node_modules/
+target/
+dist/
+.env
+.env.*
+!.env.example
+apps/mobile/src-tauri/gen/
+test-results/
+playwright-report/
+output/
+*.log

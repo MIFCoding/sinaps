@@ -1,0 +1,10 @@
+node_modules
+target
+dist
+tmp
+test-results
+apps/mobile/src-tauri/gen
+apps/mobile/src-tauri/icons
+package-lock.json
+contracts/openapi.json
+apps/frontend/src/lib/generated

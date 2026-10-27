@@ -1,0 +1,1831 @@
+{
+  "source": "source/SYNAPSE.fig",
+  "sha256": "c91d0b78f67df5ead432509acfb9b8f47b1903b014e9e8ce1a86aa5c962ab012",
+  "exported_at": "2026-10-24T20:09:52.611Z",
+  "node_count": 14221,
+  "pages": [
+    {
+      "id": "0:1",
+      "name": "03 - Компоненты",
+      "type": "CANVAS",
+      "width": null,
+      "height": null,
+      "groups": [
+        {
+          "id": "6:12",
+          "name": "Синапс / Общие компоненты",
+          "type": "FRAME",
+          "width": 960,
+          "height": 850,
+          "frames": [
+            {
+              "id": "6:15",
+              "name": "Button / Primary",
+              "type": "SYMBOL",
+              "width": 342,
+              "height": 50
+            },
+            {
+              "id": "6:17",
+              "name": "Button / Secondary",
+              "type": "SYMBOL",
+              "width": 342,
+              "height": 50
+            },
+            {
+              "id": "6:19",
+              "name": "Input / Default",
+              "type": "SYMBOL",
+              "width": 342,
+              "height": 52
+            },
+            {
+              "id": "6:26",
+              "name": "Фирменные цвета",
+              "type": "FRAME",
+              "width": 720,
+              "height": 80
+            },
+            {
+              "id": "6:32",
+              "name": "Типографика",
+              "type": "FRAME",
+              "width": 700,
+              "height": 70
+            },
+            {
+              "id": "14:63",
+              "name": "Логотип СИНАПС",
+              "type": "FRAME",
+              "width": 136,
+              "height": 136
+            }
+          ]
+        },
+        {
+          "id": "18:5",
+          "name": "V2 / Динамика, общие элементы",
+          "type": "FRAME",
+          "width": 1660,
+          "height": 1150,
+          "frames": [
+            {
+              "id": "18:8",
+              "name": "Tracker / Настроение",
+              "type": "SYMBOL",
+              "width": 660,
+              "height": 212
+            },
+            {
+              "id": "18:41",
+              "name": "Tracker / Тревога",
+              "type": "SYMBOL",
+              "width": 660,
+              "height": 212
+            },
+            {
+              "id": "18:74",
+              "name": "Tracker / Сон",
+              "type": "SYMBOL",
+              "width": 660,
+              "height": 212
+            },
+            {
+              "id": "18:107",
+              "name": "Timeline / Рубеж врача",
+              "type": "SYMBOL",
+              "width": 460,
+              "height": 132
+            },
+            {
+              "id": "18:112",
+              "name": "Правила адаптации",
+              "type": "FRAME",
+              "width": 790,
+              "height": 222
+            }
+          ]
+        },
+        {
+          "id": "25:1200",
+          "name": "V2 / Сравнение устройств, таймлайн",
+          "type": "FRAME",
+          "width": 2240,
+          "height": 1810,
+          "frames": [
+            {
+              "id": "25:1203",
+              "name": "390 px / Динамика врача",
+              "type": "FRAME",
+              "width": 292.5,
+              "height": 1388.25
+            },
+            {
+              "id": "25:1382",
+              "name": "834 px / Динамика врача",
+              "type": "FRAME",
+              "width": 625.5,
+              "height": 874.5
+            },
+            {
+              "id": "25:1565",
+              "name": "1440 px / Динамика врача",
+              "type": "FRAME",
+              "width": 1080,
+              "height": 874.5
+            },
+            {
+              "id": "25:1758",
+              "name": "Как работает история",
+              "type": "FRAME",
+              "width": 1770,
+              "height": 258
+            },
+            {
+              "id": "25:1765",
+              "name": "Навигация по файлу",
+              "type": "FRAME",
+              "width": 1730,
+              "height": 114
+            }
+          ]
+        },
+        {
+          "id": "29:341",
+          "name": "V3 / Элементы настроек",
+          "type": "FRAME",
+          "width": 1040,
+          "height": 420,
+          "frames": [
+            {
+              "id": "29:347",
+              "name": "Toggle",
+              "type": "FRAME",
+              "width": 146,
+              "height": 28
+            }
+          ]
+        },
+        {
+          "id": "37:341",
+          "name": "V3 / Обзор доработанных вкладок",
+          "type": "FRAME",
+          "width": 2240,
+          "height": 1540,
+          "frames": [
+            {
+              "id": "37:344",
+              "name": "Карточка пациента, все вкладки",
+              "type": "FRAME",
+              "width": 1008,
+              "height": 700
+            },
+            {
+              "id": "37:474",
+              "name": "Календарь пациента",
+              "type": "FRAME",
+              "width": 280.79998779296875,
+              "height": 691.2000122070312
+            },
+            {
+              "id": "37:609",
+              "name": "Настройки уведомлений",
+              "type": "FRAME",
+              "width": 280.79998779296875,
+              "height": 691.2000122070312
+            },
+            {
+              "id": "37:685",
+              "name": "Назначения врача",
+              "type": "FRAME",
+              "width": 280.79998779296875,
+              "height": 700.5599975585938
+            },
+            {
+              "id": "37:753",
+              "name": "Для пациента",
+              "type": "FRAME",
+              "width": 1050,
+              "height": 188
+            },
+            {
+              "id": "37:758",
+              "name": "Для врача",
+              "type": "FRAME",
+              "width": 1050,
+              "height": 188
+            },
+            {
+              "id": "37:763",
+              "name": "Где найти",
+              "type": "FRAME",
+              "width": 2140,
+              "height": 94
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6:35",
+      "name": "01 - Пациент",
+      "type": "CANVAS",
+      "width": null,
+      "height": null,
+      "groups": [
+        {
+          "id": "6:36",
+          "name": "СИНАПС / Приложение пациента",
+          "type": "FRAME",
+          "width": 2660,
+          "height": 1900,
+          "frames": [
+            {
+              "id": "6:37",
+              "name": "Бренд и описание",
+              "type": "FRAME",
+              "width": 2200,
+              "height": 94
+            },
+            {
+              "id": "7:2",
+              "name": "Вход",
+              "type": "FRAME",
+              "width": 390,
+              "height": 780
+            },
+            {
+              "id": "7:30",
+              "name": "Регистрация",
+              "type": "FRAME",
+              "width": 390,
+              "height": 780
+            },
+            {
+              "id": "7:74",
+              "name": "Выбор кабинета",
+              "type": "FRAME",
+              "width": 390,
+              "height": 780
+            },
+            {
+              "id": "7:93",
+              "name": "Главный экран",
+              "type": "FRAME",
+              "width": 390,
+              "height": 780
+            },
+            {
+              "id": "7:160",
+              "name": "Найти врача",
+              "type": "FRAME",
+              "width": 390,
+              "height": 780
+            },
+            {
+              "id": "7:219",
+              "name": "Чат с врачом",
+              "type": "FRAME",
+              "width": 390,
+              "height": 780
+            },
+            {
+              "id": "7:251",
+              "name": "Кабинет врача",
+              "type": "FRAME",
+              "width": 390,
+              "height": 780
+            },
+            {
+              "id": "7:280",
+              "name": "Кабинет пациента",
+              "type": "FRAME",
+              "width": 390,
+              "height": 780
+            },
+            {
+              "id": "7:311",
+              "name": "Профиль",
+              "type": "FRAME",
+              "width": 390,
+              "height": 780
+            },
+            {
+              "id": "7:390",
+              "name": "Моя медкарта",
+              "type": "FRAME",
+              "width": 390,
+              "height": 780
+            },
+            {
+              "id": "7:430",
+              "name": "Фирменный стиль",
+              "type": "FRAME",
+              "width": 800,
+              "height": 607
+            }
+          ]
+        },
+        {
+          "id": "21:55",
+          "name": "V2 / patient / 390",
+          "type": "SECTION",
+          "width": 1784,
+          "height": 5710,
+          "frames": [
+            {
+              "id": "21:995",
+              "name": "Динамика / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 1851
+            },
+            {
+              "id": "21:1174",
+              "name": "Дневник показателей / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 978
+            },
+            {
+              "id": "21:1263",
+              "name": "Рубеж: 15 марта / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 988
+            },
+            {
+              "id": "21:1323",
+              "name": "Главная / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 1840
+            },
+            {
+              "id": "21:1435",
+              "name": "Врачи / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 1206
+            },
+            {
+              "id": "21:1498",
+              "name": "Сообщения / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 960
+            },
+            {
+              "id": "21:1562",
+              "name": "Профиль / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 1409
+            },
+            {
+              "id": "21:1644",
+              "name": "Медкарта / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 960
+            },
+            {
+              "id": "21:1714",
+              "name": "Вход / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 960
+            },
+            {
+              "id": "21:1742",
+              "name": "Регистрация / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 960
+            },
+            {
+              "id": "21:1783",
+              "name": "Выбор кабинета / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 960
+            },
+            {
+              "id": "21:1810",
+              "name": "Кабинет врача / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 960
+            },
+            {
+              "id": "21:1859",
+              "name": "Кабинет пациента / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 960
+            }
+          ]
+        },
+        {
+          "id": "21:56",
+          "name": "V2 / patient / 834",
+          "type": "SECTION",
+          "width": 2678,
+          "height": 5900,
+          "frames": [
+            {
+              "id": "22:267",
+              "name": "Динамика / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1166
+            },
+            {
+              "id": "22:446",
+              "name": "Дневник показателей / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1000
+            },
+            {
+              "id": "22:531",
+              "name": "Рубеж: 15 марта / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1000
+            },
+            {
+              "id": "22:590",
+              "name": "Главная / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1067
+            },
+            {
+              "id": "22:701",
+              "name": "Врачи / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1000
+            },
+            {
+              "id": "22:767",
+              "name": "Сообщения / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1000
+            },
+            {
+              "id": "22:842",
+              "name": "Профиль / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1057
+            },
+            {
+              "id": "22:921",
+              "name": "Медкарта / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1000
+            },
+            {
+              "id": "22:990",
+              "name": "Вход / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1000
+            },
+            {
+              "id": "22:1021",
+              "name": "Регистрация / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1000
+            },
+            {
+              "id": "22:1065",
+              "name": "Выбор кабинета / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1000
+            },
+            {
+              "id": "22:1095",
+              "name": "Кабинет врача / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1000
+            },
+            {
+              "id": "22:1141",
+              "name": "Кабинет пациента / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1000
+            }
+          ]
+        },
+        {
+          "id": "21:57",
+          "name": "V2 / patient / 1440",
+          "type": "SECTION",
+          "width": 3008,
+          "height": 8040,
+          "frames": [
+            {
+              "id": "22:1266",
+              "name": "Динамика / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1166
+            },
+            {
+              "id": "22:1454",
+              "name": "Дневник показателей / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1000
+            },
+            {
+              "id": "22:1548",
+              "name": "Рубеж: 15 марта / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1000
+            },
+            {
+              "id": "22:1616",
+              "name": "Главная / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1047
+            },
+            {
+              "id": "22:1736",
+              "name": "Врачи / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1000
+            },
+            {
+              "id": "22:1811",
+              "name": "Сообщения / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1000
+            },
+            {
+              "id": "22:1895",
+              "name": "Профиль / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1057
+            },
+            {
+              "id": "22:1983",
+              "name": "Медкарта / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1000
+            },
+            {
+              "id": "22:2061",
+              "name": "Вход / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1000
+            },
+            {
+              "id": "22:2092",
+              "name": "Регистрация / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1000
+            },
+            {
+              "id": "22:2136",
+              "name": "Выбор кабинета / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1000
+            },
+            {
+              "id": "22:2166",
+              "name": "Кабинет врача / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1000
+            },
+            {
+              "id": "22:2221",
+              "name": "Кабинет пациента / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1000
+            }
+          ]
+        },
+        {
+          "id": "30:928",
+          "name": "V3 / Пациент / 390",
+          "type": "SECTION",
+          "width": 1784,
+          "height": 5682,
+          "frames": [
+            {
+              "id": "31:928",
+              "name": "Календарь / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 960
+            },
+            {
+              "id": "31:1063",
+              "name": "Запись к врачу / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 1092
+            },
+            {
+              "id": "31:1137",
+              "name": "Предстоящий приём / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 960
+            },
+            {
+              "id": "31:1196",
+              "name": "Лекарства / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 971
+            },
+            {
+              "id": "31:1264",
+              "name": "Добавить лекарство / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 960
+            },
+            {
+              "id": "31:1324",
+              "name": "Экстренная помощь / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 960
+            },
+            {
+              "id": "31:1391",
+              "name": "Настройки / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 960
+            },
+            {
+              "id": "31:1472",
+              "name": "Уведомления / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 960
+            },
+            {
+              "id": "31:1539",
+              "name": "Настройки уведомлений / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 960
+            },
+            {
+              "id": "31:1615",
+              "name": "Конфиденциальность / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 960
+            },
+            {
+              "id": "31:1688",
+              "name": "Синхронизация календаря / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 960
+            },
+            {
+              "id": "31:1756",
+              "name": "Помощь / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 1055
+            },
+            {
+              "id": "31:1819",
+              "name": "О приложении / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 960
+            },
+            {
+              "id": "31:1869",
+              "name": "Восстановление доступа / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 960
+            },
+            {
+              "id": "31:1898",
+              "name": "Настройки графиков / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 960
+            },
+            {
+              "id": "31:1972",
+              "name": "Фильтры врачей / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 960
+            },
+            {
+              "id": "34:1120",
+              "name": "Мои врачи / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 960
+            }
+          ]
+        },
+        {
+          "id": "30:932",
+          "name": "V3 / Пациент / 834",
+          "type": "SECTION",
+          "width": 2678,
+          "height": 6745,
+          "frames": [
+            {
+              "id": "31:2190",
+              "name": "Календарь / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1000
+            },
+            {
+              "id": "31:2324",
+              "name": "Запись к врачу / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1000
+            },
+            {
+              "id": "31:2397",
+              "name": "Предстоящий приём / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1000
+            },
+            {
+              "id": "31:2452",
+              "name": "Лекарства / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1000
+            },
+            {
+              "id": "31:2519",
+              "name": "Добавить лекарство / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1000
+            },
+            {
+              "id": "31:2575",
+              "name": "Экстренная помощь / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1000
+            },
+            {
+              "id": "31:2641",
+              "name": "Настройки / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1000
+            },
+            {
+              "id": "31:2718",
+              "name": "Уведомления / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1000
+            },
+            {
+              "id": "31:2781",
+              "name": "Настройки уведомлений / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1000
+            },
+            {
+              "id": "31:2853",
+              "name": "Конфиденциальность / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1000
+            },
+            {
+              "id": "31:2922",
+              "name": "Синхронизация календаря / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1000
+            },
+            {
+              "id": "31:2986",
+              "name": "Помощь / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1000
+            },
+            {
+              "id": "31:3048",
+              "name": "О приложении / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1000
+            },
+            {
+              "id": "31:3094",
+              "name": "Восстановление доступа / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1000
+            },
+            {
+              "id": "31:3121",
+              "name": "Настройки графиков / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1000
+            },
+            {
+              "id": "31:3191",
+              "name": "Фильтры врачей / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1000
+            },
+            {
+              "id": "34:1178",
+              "name": "Мои врачи / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1000
+            }
+          ]
+        },
+        {
+          "id": "30:936",
+          "name": "V3 / Пациент / 1440",
+          "type": "SECTION",
+          "width": 3008,
+          "height": 10015,
+          "frames": [
+            {
+              "id": "31:3405",
+              "name": "Календарь / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1000
+            },
+            {
+              "id": "31:3548",
+              "name": "Запись к врачу / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1000
+            },
+            {
+              "id": "31:3630",
+              "name": "Предстоящий приём / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1000
+            },
+            {
+              "id": "31:3694",
+              "name": "Лекарства / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1000
+            },
+            {
+              "id": "31:3770",
+              "name": "Добавить лекарство / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1000
+            },
+            {
+              "id": "31:3835",
+              "name": "Экстренная помощь / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1000
+            },
+            {
+              "id": "31:3910",
+              "name": "Настройки / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1000
+            },
+            {
+              "id": "31:3996",
+              "name": "Уведомления / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1000
+            },
+            {
+              "id": "31:4068",
+              "name": "Настройки уведомлений / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1000
+            },
+            {
+              "id": "31:4149",
+              "name": "Конфиденциальность / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1000
+            },
+            {
+              "id": "31:4227",
+              "name": "Синхронизация календаря / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1000
+            },
+            {
+              "id": "31:4300",
+              "name": "Помощь / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1000
+            },
+            {
+              "id": "31:4371",
+              "name": "О приложении / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1000
+            },
+            {
+              "id": "31:4426",
+              "name": "Восстановление доступа / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1000
+            },
+            {
+              "id": "31:4453",
+              "name": "Настройки графиков / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1000
+            },
+            {
+              "id": "31:4532",
+              "name": "Фильтры врачей / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1000
+            },
+            {
+              "id": "34:1232",
+              "name": "Мои врачи / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7:438",
+      "name": "02 - Врач",
+      "type": "CANVAS",
+      "width": null,
+      "height": null,
+      "groups": [
+        {
+          "id": "7:439",
+          "name": "СИНАПС / Кабинет врача",
+          "type": "FRAME",
+          "width": 2660,
+          "height": 1900,
+          "frames": [
+            {
+              "id": "7:440",
+              "name": "Бренд и описание",
+              "type": "FRAME",
+              "width": 2400,
+              "height": 94
+            },
+            {
+              "id": "9:2",
+              "name": "Главная / Desktop",
+              "type": "FRAME",
+              "width": 1240,
+              "height": 780
+            },
+            {
+              "id": "9:150",
+              "name": "Пациенты",
+              "type": "FRAME",
+              "width": 390,
+              "height": 780
+            },
+            {
+              "id": "9:239",
+              "name": "Карточка пациента",
+              "type": "FRAME",
+              "width": 390,
+              "height": 780
+            },
+            {
+              "id": "9:292",
+              "name": "Расписание",
+              "type": "FRAME",
+              "width": 390,
+              "height": 780
+            },
+            {
+              "id": "9:378",
+              "name": "Чат с пациентом",
+              "type": "FRAME",
+              "width": 390,
+              "height": 780
+            },
+            {
+              "id": "9:414",
+              "name": "Заметки и назначения",
+              "type": "FRAME",
+              "width": 390,
+              "height": 780
+            },
+            {
+              "id": "9:438",
+              "name": "Медицинская карта",
+              "type": "FRAME",
+              "width": 390,
+              "height": 780
+            },
+            {
+              "id": "9:482",
+              "name": "Настройки",
+              "type": "FRAME",
+              "width": 390,
+              "height": 780
+            },
+            {
+              "id": "9:544",
+              "name": "О приложении",
+              "type": "FRAME",
+              "width": 390,
+              "height": 780
+            }
+          ]
+        },
+        {
+          "id": "21:66",
+          "name": "V2 / doctor / 390",
+          "type": "SECTION",
+          "width": 1784,
+          "height": 4448,
+          "frames": [
+            {
+              "id": "22:2355",
+              "name": "Динамика / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 1851
+            },
+            {
+              "id": "22:2534",
+              "name": "Добавить рубеж / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 968
+            },
+            {
+              "id": "22:2603",
+              "name": "Рубеж: 15 марта / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 1048
+            },
+            {
+              "id": "22:2665",
+              "name": "Главная / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 1825
+            },
+            {
+              "id": "22:2789",
+              "name": "Пациенты / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 1035
+            },
+            {
+              "id": "22:2879",
+              "name": "Карточка пациента / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 1137
+            },
+            {
+              "id": "22:2987",
+              "name": "Расписание / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 968
+            },
+            {
+              "id": "22:3080",
+              "name": "Сообщения / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 960
+            },
+            {
+              "id": "22:3144",
+              "name": "Заметки и назначения / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 1010
+            },
+            {
+              "id": "22:3201",
+              "name": "Медкарта / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 960
+            },
+            {
+              "id": "22:3271",
+              "name": "Настройки / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 960
+            },
+            {
+              "id": "22:3350",
+              "name": "О приложении / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 960
+            }
+          ]
+        },
+        {
+          "id": "21:67",
+          "name": "V2 / doctor / 834",
+          "type": "SECTION",
+          "width": 2678,
+          "height": 4772,
+          "frames": [
+            {
+              "id": "22:3486",
+              "name": "Динамика / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1166
+            },
+            {
+              "id": "22:3669",
+              "name": "Добавить рубеж / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1000
+            },
+            {
+              "id": "22:3739",
+              "name": "Рубеж: 15 марта / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1000
+            },
+            {
+              "id": "22:3804",
+              "name": "Главная / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1076
+            },
+            {
+              "id": "22:3931",
+              "name": "Пациенты / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1000
+            },
+            {
+              "id": "22:4046",
+              "name": "Карточка пациента / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1000
+            },
+            {
+              "id": "22:4157",
+              "name": "Расписание / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1000
+            },
+            {
+              "id": "22:4252",
+              "name": "Сообщения / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1000
+            },
+            {
+              "id": "22:4331",
+              "name": "Заметки и назначения / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1000
+            },
+            {
+              "id": "22:4391",
+              "name": "Медкарта / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1000
+            },
+            {
+              "id": "22:4464",
+              "name": "Настройки / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1000
+            },
+            {
+              "id": "22:4543",
+              "name": "О приложении / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1000
+            }
+          ]
+        },
+        {
+          "id": "21:68",
+          "name": "V2 / doctor / 1440",
+          "type": "SECTION",
+          "width": 3008,
+          "height": 6932,
+          "frames": [
+            {
+              "id": "22:4694",
+              "name": "Динамика / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1166
+            },
+            {
+              "id": "22:4887",
+              "name": "Добавить рубеж / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1000
+            },
+            {
+              "id": "22:4967",
+              "name": "Рубеж: 15 марта / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1000
+            },
+            {
+              "id": "22:5042",
+              "name": "Главная / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1076
+            },
+            {
+              "id": "22:5179",
+              "name": "Пациенты / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1000
+            },
+            {
+              "id": "22:5304",
+              "name": "Карточка пациента / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1000
+            },
+            {
+              "id": "22:5425",
+              "name": "Расписание / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1000
+            },
+            {
+              "id": "22:5530",
+              "name": "Сообщения / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1000
+            },
+            {
+              "id": "22:5619",
+              "name": "Заметки и назначения / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1000
+            },
+            {
+              "id": "22:5689",
+              "name": "Медкарта / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1000
+            },
+            {
+              "id": "22:5772",
+              "name": "Настройки / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1000
+            },
+            {
+              "id": "22:5861",
+              "name": "О приложении / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1000
+            }
+          ]
+        },
+        {
+          "id": "30:1551",
+          "name": "V3 / Врач / 390",
+          "type": "SECTION",
+          "width": 1784,
+          "height": 5913,
+          "frames": [
+            {
+              "id": "31:5366",
+              "name": "История пациента / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 1198
+            },
+            {
+              "id": "31:5438",
+              "name": "Назначения / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 973
+            },
+            {
+              "id": "31:5506",
+              "name": "Новое назначение / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 993
+            },
+            {
+              "id": "31:5575",
+              "name": "Новая заметка / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 960
+            },
+            {
+              "id": "31:5639",
+              "name": "Новый пациент / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 960
+            },
+            {
+              "id": "31:5700",
+              "name": "Приём пациента / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 988
+            },
+            {
+              "id": "31:5764",
+              "name": "Новый приём / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 960
+            },
+            {
+              "id": "31:5834",
+              "name": "Профиль врача / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 1104
+            },
+            {
+              "id": "31:5900",
+              "name": "Календарь / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 960
+            },
+            {
+              "id": "31:6035",
+              "name": "Уведомления / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 960
+            },
+            {
+              "id": "31:6103",
+              "name": "Настройки уведомлений / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 960
+            },
+            {
+              "id": "31:6179",
+              "name": "Конфиденциальность / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 960
+            },
+            {
+              "id": "31:6240",
+              "name": "Синхронизация календаря / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 960
+            },
+            {
+              "id": "31:6308",
+              "name": "Помощь / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 1036
+            },
+            {
+              "id": "31:6371",
+              "name": "Настройки графиков / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 960
+            },
+            {
+              "id": "31:6445",
+              "name": "Активные пациенты / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 960
+            },
+            {
+              "id": "31:6514",
+              "name": "На наблюдении / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 960
+            },
+            {
+              "id": "31:6569",
+              "name": "Архив пациентов / 390",
+              "type": "FRAME",
+              "width": 390,
+              "height": 960
+            }
+          ]
+        },
+        {
+          "id": "30:1555",
+          "name": "V3 / Врач / 834",
+          "type": "SECTION",
+          "width": 2678,
+          "height": 6745,
+          "frames": [
+            {
+              "id": "31:6812",
+              "name": "История пациента / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1000
+            },
+            {
+              "id": "31:6887",
+              "name": "Назначения / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1000
+            },
+            {
+              "id": "31:6958",
+              "name": "Новое назначение / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1000
+            },
+            {
+              "id": "31:7027",
+              "name": "Новая заметка / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1000
+            },
+            {
+              "id": "31:7091",
+              "name": "Новый пациент / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1000
+            },
+            {
+              "id": "31:7152",
+              "name": "Приём пациента / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1000
+            },
+            {
+              "id": "31:7219",
+              "name": "Новый приём / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1000
+            },
+            {
+              "id": "31:7289",
+              "name": "Профиль врача / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1000
+            },
+            {
+              "id": "31:7358",
+              "name": "Календарь / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1000
+            },
+            {
+              "id": "31:7496",
+              "name": "Уведомления / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1000
+            },
+            {
+              "id": "31:7564",
+              "name": "Настройки уведомлений / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1000
+            },
+            {
+              "id": "31:7640",
+              "name": "Конфиденциальность / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1000
+            },
+            {
+              "id": "31:7701",
+              "name": "Синхронизация календаря / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1000
+            },
+            {
+              "id": "31:7769",
+              "name": "Помощь / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1000
+            },
+            {
+              "id": "31:7835",
+              "name": "Настройки графиков / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1000
+            },
+            {
+              "id": "31:7909",
+              "name": "Активные пациенты / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1000
+            },
+            {
+              "id": "31:7978",
+              "name": "На наблюдении / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1000
+            },
+            {
+              "id": "31:8033",
+              "name": "Архив пациентов / 834",
+              "type": "FRAME",
+              "width": 834,
+              "height": 1000
+            }
+          ]
+        },
+        {
+          "id": "30:1559",
+          "name": "V3 / Врач / 1440",
+          "type": "SECTION",
+          "width": 3008,
+          "height": 10015,
+          "frames": [
+            {
+              "id": "31:8294",
+              "name": "История пациента / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1000
+            },
+            {
+              "id": "31:8379",
+              "name": "Назначения / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1000
+            },
+            {
+              "id": "31:8460",
+              "name": "Новое назначение / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1000
+            },
+            {
+              "id": "31:8539",
+              "name": "Новая заметка / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1000
+            },
+            {
+              "id": "31:8613",
+              "name": "Новый пациент / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1000
+            },
+            {
+              "id": "31:8684",
+              "name": "Приём пациента / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1000
+            },
+            {
+              "id": "31:8761",
+              "name": "Новый приём / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1000
+            },
+            {
+              "id": "31:8841",
+              "name": "Профиль врача / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1000
+            },
+            {
+              "id": "31:8920",
+              "name": "Календарь / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1000
+            },
+            {
+              "id": "31:9068",
+              "name": "Уведомления / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1000
+            },
+            {
+              "id": "31:9146",
+              "name": "Настройки уведомлений / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1000
+            },
+            {
+              "id": "31:9232",
+              "name": "Конфиденциальность / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1000
+            },
+            {
+              "id": "31:9303",
+              "name": "Синхронизация календаря / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1000
+            },
+            {
+              "id": "31:9381",
+              "name": "Помощь / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1000
+            },
+            {
+              "id": "31:9457",
+              "name": "Настройки графиков / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1000
+            },
+            {
+              "id": "31:9541",
+              "name": "Активные пациенты / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1000
+            },
+            {
+              "id": "31:9620",
+              "name": "На наблюдении / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1000
+            },
+            {
+              "id": "31:9685",
+              "name": "Архив пациентов / 1440",
+              "type": "FRAME",
+              "width": 1440,
+              "height": 1000
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "colors": {
+    "color/ink": "#123C50",
+    "color/muted": "#718C9A",
+    "color/brand": "#219F90",
+    "color/mint": "#E4F5F1",
+    "color/bg": "#F6FBFC",
+    "color/line": "#E6EFF1",
+    "color/white": "#FFFFFF",
+    "color/lavender": "#F0EFFB",
+    "color/blue": "#E7F4FB",
+    "color/anxiety": "#8772BF",
+    "color/sleep": "#4D91BE",
+    "color/mood": "#219F90"
+  },
+  "font_family": "Inter",
+  "images": [
+    {
+      "path": "assets/94b193db2980e3417fb72531e20a83026d7fedff.png",
+      "archive_path": "images/94b193db2980e3417fb72531e20a83026d7fedff",
+      "sha256": "e4469a31227266cb65c55174dbb844fa23fcdd7e084ae2ad2c219586b11cbbe3"
+    },
+    {
+      "path": "assets/0247a3ac2fe8f7124b0f0045cdcbf828af44e5f1.png",
+      "archive_path": "images/0247a3ac2fe8f7124b0f0045cdcbf828af44e5f1",
+      "sha256": "c7e1a3c86d1af09e03e846094a45809c8135ef4e57612d8fd9f946aa8c41fd0a"
+    },
+    {
+      "path": "assets/0a44f77369309b0172dd4917abe6c2138154e639.png",
+      "archive_path": "images/0a44f77369309b0172dd4917abe6c2138154e639",
+      "sha256": "5554d3291fb4bd3d8038ec671ec9871e65fe9d54c259b6514ba9ae8e2fa339ba"
+    },
+    {
+      "path": "assets/ada1d98f20e42ecf566214df6a72334cdafa5145.png",
+      "archive_path": "images/ada1d98f20e42ecf566214df6a72334cdafa5145",
+      "sha256": "ec4648e0adbfd32f53417b532f6df244a4a923db7059edac606058c247d0cce0"
+    },
+    {
+      "path": "assets/c3285a87daab0fbdd5cac30499dce1e577a2c531.png",
+      "archive_path": "images/c3285a87daab0fbdd5cac30499dce1e577a2c531",
+      "sha256": "bea3608175090aafb6a0c517ba014823d06be35a8405e74cf8345295a44b76b7"
+    }
+  ]
+}
+
